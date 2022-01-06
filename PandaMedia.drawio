@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-06T05:55:18.578Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="kfIEClNBbhzq1r_HDM4a" version="16.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-06T05:56:42.033Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="P1xdFjvyteTjF25gCy8o" version="16.2.2" type="github">
   <diagram id="a9l1V9gKimFtQdNrTO6B" name="Page-1">
     <mxGraphModel dx="2276" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -360,35 +360,6 @@
         </mxCell>
         <mxCell id="J5NCrG0j7UJapC3rpfJA-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="J5NCrG0j7UJapC3rpfJA-19" target="J5NCrG0j7UJapC3rpfJA-14">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="J5NCrG0j7UJapC3rpfJA-27" value="panda_auditor" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="90" y="690" width="450" height="232" as="geometry">
-            <mxRectangle x="400" y="446" width="160" height="26" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="J5NCrG0j7UJapC3rpfJA-28" value="id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="J5NCrG0j7UJapC3rpfJA-27">
-          <mxGeometry y="26" width="450" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="J5NCrG0j7UJapC3rpfJA-29" value="user_id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="J5NCrG0j7UJapC3rpfJA-27">
-          <mxGeometry y="52" width="450" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="J5NCrG0j7UJapC3rpfJA-30" value="Twitter_Username" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="J5NCrG0j7UJapC3rpfJA-27">
-          <mxGeometry y="78" width="450" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="J5NCrG0j7UJapC3rpfJA-31" value="discord_Username" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="J5NCrG0j7UJapC3rpfJA-27">
-          <mxGeometry y="104" width="450" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="J5NCrG0j7UJapC3rpfJA-32" value="auditor_apply_status  审核员申请状态 0初始态 1申请中 2 已通过 3已拒绝" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="J5NCrG0j7UJapC3rpfJA-27">
-          <mxGeometry y="130" width="450" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="J5NCrG0j7UJapC3rpfJA-33" value="Apply_time 申请时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="J5NCrG0j7UJapC3rpfJA-27">
-          <mxGeometry y="156" width="450" height="24" as="geometry" />
-        </mxCell>
-        <mxCell id="J5NCrG0j7UJapC3rpfJA-34" value="system_manager 管理员用户名" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="J5NCrG0j7UJapC3rpfJA-27">
-          <mxGeometry y="180" width="450" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="J5NCrG0j7UJapC3rpfJA-35" value="check_time 审核时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="J5NCrG0j7UJapC3rpfJA-27">
-          <mxGeometry y="206" width="450" height="26" as="geometry" />
         </mxCell>
         <mxCell id="J5NCrG0j7UJapC3rpfJA-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J5NCrG0j7UJapC3rpfJA-36" target="J5NCrG0j7UJapC3rpfJA-17">
           <mxGeometry relative="1" as="geometry" />
